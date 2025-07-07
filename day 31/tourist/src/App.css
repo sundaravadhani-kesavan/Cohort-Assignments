@@ -1,0 +1,69 @@
+.container{
+  width: 250px;
+  border: 1px solid lightgray;
+  padding: 15px;
+  border-radius: 14px;
+
+}
+.innerContainer{
+  position: relative;
+}
+.content{
+  position: relative;
+}
+.rating{
+  position: absolute;
+  top: 0px;
+  right: 1px;
+  border-radius: 10px;
+  padding: 3px 10px;
+}
+.card{
+  display: flex;
+  gap: 10px;
+  margin: 50px auto;
+  justify-content: center;
+}
+.card-img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+.visitIn{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.summer{
+  background-color: #d1cc2ade;
+
+}
+.winter{
+  background-color: #d3c9c9cd;
+}
+.cheap{
+    background-color: #c2fdbdad;
+
+}
+.expense{
+  background-color: #b31111d1;
+  color: white;
+
+}
+.priceType{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+*{
+  margin: 0px;
+  font-size: 14px;
+}
+.mb{
+  margin-bottom: 5px;
+}
